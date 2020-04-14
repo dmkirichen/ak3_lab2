@@ -1,11 +1,10 @@
 .syntax unified
-
 .cpu cortex-m4
 //.fpu softvfp
 .thumb
 
-#define A #4
-#define B #16
+#define A #18
+#define B #6
 #define C #3
 
 // global memory locations
@@ -43,7 +42,7 @@ __kernel_reset__:
     // output into console
     ldr r0, =final
     bl dbgput
-    mov r0, r3
+    mov r0, r2
     bl dbgput_num
 
     end:
