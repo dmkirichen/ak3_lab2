@@ -1,0 +1,1 @@
+cmd_/home/dmkirichen/Desktop/architecture/ak3_labs/ak3_lab5/hello.ko := ccache arm-eabi-ld -r -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/dmkirichen/Desktop/architecture/ak3_labs/ak3_lab5/hello.ko /home/dmkirichen/Desktop/architecture/ak3_labs/ak3_lab5/hello.o /home/dmkirichen/Desktop/architecture/ak3_labs/ak3_lab5/hello.mod.o ;  true
